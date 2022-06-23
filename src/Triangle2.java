@@ -11,5 +11,7 @@ public class Triangle2 {
 
         System.out.println(triangleA.sideLenThree);
         System.out.println(triangleB.base);
+
+        System.out.println(Triangle.numOfSides);
     }
 }
