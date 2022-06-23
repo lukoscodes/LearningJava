@@ -2,13 +2,13 @@ public class profile {
 
     String firstName;
     String lastName;
-    double Year;
+    int Year;
     double GPA;
     String Major;
 
     public profile(String firstName,
                    String lastName,
-                   double Year,
+                   int Year,
                    double GPA,
                    String Major) {
         this.firstName = firstName;
@@ -18,7 +18,7 @@ public class profile {
         this.Major = Major;
     }
 
-    public double IncrementExpectedGraduationYear(){
+    public int IncrementExpectedGraduationYear(){
         return this.Year + 1;
 
     }

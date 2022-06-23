@@ -7,7 +7,7 @@ public class profile2 {
         System.out.println(student1);
         System.out.println(student2);
 
-        double student1Year = student1.IncrementExpectedGraduationYear();
+        int student1Year = student1.IncrementExpectedGraduationYear();
         System.out.println(student1Year);
 
 
