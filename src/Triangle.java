@@ -24,3 +24,4 @@ public class Triangle {
         return (this.base * this.height) /2;
     }
 }
+
